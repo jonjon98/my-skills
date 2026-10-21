@@ -5,7 +5,7 @@ description: "Create a named feature branch in its own git worktree from the tar
 
 Create the feature branch and its worktree. Your brief names the repo, the task folder, and where to write the report. Run git in the repo named by its `Repo` line. A standalone request names the ticket or task directly.
 
-Read `config.env` in this skill's folder, `~/.agents/skills/ship-branch/config.env`. If it is missing, copy `config.env.example` beside it, ask the user for any value they want changed, and write it.
+Read the branch keys (`BRANCH_*`, `WORKTREE_DIR`, `TYPE_MAP`) in the supervisor's `~/.agents/skills/ship/config.env`. If that file is missing, follow first-time setup in `~/.agents/skills/ship/references/config.md`.
 
 ## Name the branch
 

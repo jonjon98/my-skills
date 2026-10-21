@@ -12,7 +12,7 @@ When `config.env` is missing:
    - ticket tracker, how to reach it, and which key prefixes belong to it
    - docs source, and chat source, each possibly none
    - the real model name for each of the three tiers, cheap, standard and strong
-3. Write `config.env` from `config.env.example`. Leave unknown values empty and say which. Also copy `~/.agents/skills/ship-branch/config.env.example` to `config.env` there when it is missing, because a subagent cannot ask the user for it later.
+3. Write `config.env` from `config.env.example`. Leave unknown values empty and say which. Branch naming keys live in the same file, so this one setup covers every phase. A subagent cannot ask the user later, so every key must be written here.
 4. If the user cannot answer something yet, write the key empty. A source with an empty value is skipped, and the context pull reports it as not configured.
 
 ## Editing later
