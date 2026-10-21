@@ -12,13 +12,14 @@ Work only inside the worktree. First run `git branch --show-current` there and c
 - `spec.md`: goal, acceptance criteria, out of scope, off limits, verify commands.
 - Your task line in `plan.md`, and the acceptance criteria it names.
 - `context.md`: the repo facts and convention files. Read the convention files.
+- The clean-code standard, `~/.agents/skills/clean-code/SKILL.md`, and its language file when one matches the code you touch. Read it before you write any code.
 - The user's global `~/.agents/AGENTS.md` for the commit format and attribution rules.
 - For a fix: the failing `.out` files in `artifacts/` or the review reports your brief names. Fix exactly what they say.
 
 ## Build
 
 1. **Test first.** When the repo has a test runner, write a failing test for each criterion your task covers. Run it and confirm it fails for the right reason. When no runner exists, skip this and say so in the report. Never add a test framework.
-2. **Implement** the least that makes the tests pass. Follow the repo's conventions.
+2. **Implement** the least that makes the tests pass. Follow the repo's conventions and the clean-code hard rules.
 3. **Check.** Run your task's tests, the typecheck, and the lint for what you touched. Save the output with the artifacts pattern in `~/.agents/skills/task-memory/RUN-FILES.md`, as `artifacts/build-<role>.out` and `.exit`.
 4. **Commit** once, with a message in the user's format from `AGENTS.md`. Stage only the files you changed. Run `git status` and confirm nothing of yours is left unstaged.
 

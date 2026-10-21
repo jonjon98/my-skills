@@ -29,7 +29,7 @@ Write `artifacts/pr-body.md` in the task folder. When the repo has a PR or MR te
 - **Decisions made with you**: from `spec.md` Decisions.
 - **Evidence**: the gates and criteria with their pass results, from the final-run report.
 - **Needs your eyes**: from the final-run report.
-- **Not addressed**: non-blocking review findings and any blocking finding left open when the review cap was hit.
+- **Advisory**: every review finding the run did not fix. List blocking findings still open when the review cap was hit first, marked as blocking. Then list the non-blocking ones. Give each one's file, line, and why it matters, so the reviewer can accept or reject it.
 - **Noticed but out of scope**: `noticed.md`.
 - **Merge danger**: whether the change is a one-way door, such as a migration, a deletion, or a public contract change, or a two-way door, plus the blast radius in a few words.
 - **Linked ticket**: the key and URL. Add `Closes #<n>` only when the tracker is the forge's own issues.
