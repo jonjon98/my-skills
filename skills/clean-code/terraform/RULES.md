@@ -74,10 +74,3 @@ resource "aws_s3_bucket" "invoice_archive" {
 
 - Keep the core comment rules. Use `description` on variables and outputs instead of comments above them.
 - A comment that explains a provider quirk, with a link to its issue, is allowed.
-
-## Sources
-
-- [HashiCorp Terraform style guide](https://developer.hashicorp.com/terraform/language/v1.12.x/style)
-- [HashiCorp refactoring with moved blocks](https://developer.hashicorp.com/terraform/language/v1.7.x/modules/develop/refactoring)
-- [Terraform skill for count, for_each, and naming](https://tessl.io/registry/skills/github/antonbabenko/terraform-skill/terraform-skill--terraform-skill)
-- [Terraform skill for modern variable types](https://tessl.io/registry/skills/github/bkircher/skills/terraform)
