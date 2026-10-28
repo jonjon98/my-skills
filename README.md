@@ -50,6 +50,7 @@ Adding a new skill of my own: create `skills/<name>/SKILL.md` in this repo, run 
 | Skill | What it does |
 | --- | --- |
 | [clean-code](skills/clean-code/SKILL.md) | Clean, readable code standards for writing, changing, or reviewing code in any language. |
+| [git-workflow](skills/git-workflow/SKILL.md) | Git rules for committing, branching, pushing, and opening pull requests in this user's repos. |
 | [ship](skills/ship/SKILL.md) | Take a request or ticket from interview to an open PR/MR with subagents, unattended after your go. |
 | [ship-branch](skills/ship-branch/SKILL.md) | Create a named feature branch in its own git worktree from the target branch. |
 | [ship-build](skills/ship-build/SKILL.md) | Ship phase: build one task, or fix named failures, test first, then commit. |
