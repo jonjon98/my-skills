@@ -48,3 +48,4 @@ Load the matching file for language-specific rules:
 - Vite: `vite/RULES.md`
 - Java: `java/RULES.md`
 - Spring Boot: `spring-boot/RULES.md`
+- Terraform: `terraform/RULES.md`
